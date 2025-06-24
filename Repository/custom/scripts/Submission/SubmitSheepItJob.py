@@ -97,4 +97,4 @@ def SubmitButtonPressed(*args):
     arguments = [jobInfoFilename, pluginInfoFilename]
     results = ClientUtils.ExecuteCommandAndGetOutput(arguments)
     scriptDialog.ShowMessageBox(results, "Submission Results")
-    scriptDialog.closeEvent()
+
