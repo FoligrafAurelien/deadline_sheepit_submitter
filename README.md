@@ -42,7 +42,7 @@ This repository provides a custom plugin and submitter for Thinkbox Deadline 10.
 
 - The file `sheepit-client.jar` **must** be present at: [Deadline Repository]/custom/plugins/SheepIt/client/sheepit-client.jar
 
-- Java must be available on each Worker, either in the system PATH or in the location configured in the plugin (normally, it's integrated with sheepit so if you keep the original path, it will work on all your machines).
+- Java must be available on each Worker, either in the system PATH or in the location configured in the plugin ([Deadline Repository]/custom/plugins/SheepIt/client/java) (https://www.azul.com/downloads/?version=java-17-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu) - Test with 17.0.15 version
 - No login/password is stored in the repository; they are provided at job submission.
 
 ---
