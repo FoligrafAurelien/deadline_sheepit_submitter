@@ -1,0 +1,13 @@
+# SheepIt.options - Permet l'édition post-soumission de certains champs
+# (optionnel mais conseillé si tu veux pouvoir reconfigurer certains paramètres)
+[Email]
+Type=string
+Label=Email
+
+[Password]
+Type=password
+Label=Password
+
+[Systotrail]
+Type=boolean
+Label=Enable systotrail

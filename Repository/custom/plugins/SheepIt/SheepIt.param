@@ -1,0 +1,34 @@
+# SheepIt.param - Parameters visible in Configure Plugins (Tools > Configure Plugins)
+# Reference: Blender.param, MayaBatch.param, doc officielle
+
+[Email]
+Type=string
+Label=Email
+Category=Credentials
+CategoryOrder=0
+Default=
+Description=SheepIt account email
+
+[Password]
+Type=password
+Label=Password
+Category=Credentials
+CategoryOrder=1
+Default=
+Description=SheepIt account password
+
+[Systotrail]
+Type=boolean
+Label=Enable systotrail
+Category=Options
+CategoryOrder=2
+Default=false
+Description=Enable the --systotrail flag in SheepIt client
+
+[About]
+Type=label
+Label=About
+Category=Info
+CategoryOrder=100
+Default=Plugin to run SheepIt on your render nodes via Deadline
+Description=Custom plugin for Deadline to run the SheepIt Java client per worker node.
